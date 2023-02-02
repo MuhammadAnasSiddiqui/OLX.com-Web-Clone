@@ -5,7 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 header{
-    background-color: #f7f8f8 
+    background-color: #f7f8f8;
+    position: sticky;
+    top: 0;
+    z-index: 10
       
 }
 .top{
@@ -71,6 +74,7 @@ header{
     height: 44px;
     margin-left: 20px;
     border: none;
+    outline: none;
     background: none;
     
 }
@@ -164,6 +168,143 @@ header{
     font-size: 24px;
     color: #002f34
 }
+.load-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px
+}
+.load-btn button{
+    color: #002f34;
+    fill: #002f34;
+    font-weight: bold;
+    border: 2px solid #002f34;
+    border-radius: 4px;
+    height: 48px;
+    max-height: 100%;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: none
+}
+.load-btn button:hover{
+    border-width: 0.4rem;
+    background-color: #fff 
+}
+
+
+/* olxcontainer */
+.olxcontainer-parent{
+    background: rgba(0,47,52,.03);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px
+   
+}
+.olxcontainer{  
+    width: 32.8%;
+}
+.olxcontainer img{
+    height: 100%;
+}
+.olxcontainer-2{  
+    /* margin-left: 4.4rem;
+    margin-right: 1.6rem; */
+    padding-right: 30px;
+    width: 32.8%;
+}
+.olxcontainer-2 h2{
+    font-size: 32px;
+    color: #002f34;
+    margin: 28px 0 16px;
+    font-weight: 700
+}
+.olxcontainer-2 p{
+    font-size: 20px;
+    color: #002f34
+}
+.olxcontainer-3{  
+    width: 32.8%;
+    padding-left: 30px
+}
+.olxcontainer-3 h6{
+    margin: 3rem 0 1.2rem;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase
+
+}
+.olx-line{
+    width: 0.2rem;
+    margin: auto;
+    background-color: rgba(0,47,52,.2);
+    height: 105px
+}
+
+.icon-div{
+    display: flex;
+    gap: 7px;
+}
+
+
+
+
+
+/* footer-1 */
+
+.footer-1{
+    background-color: #ebeeef;
+    padding: 16px 15px 40px 0px;
+    border-top: 1px solid rgba(0,47,52,.2);
+    display: flex;
+    justify-content: space-between
+
+}
+.footer-1 span{
+    color: #002f34;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 30px
+}
+.ftr-list ul li{
+    list-style: none;
+    font-size: 12.04px;
+    color: #002f34a3;
+    line-height: 23px;
+    cursor: pointer;
+}
+.ftr-list ul li:hover{
+    color: #002f34
+}
+.ftr-list ul{
+    margin-top: 10px
+}
+span.social-icon-2{
+    margin: 0
+}
+.icon-child{
+    margin-top: 45px
+}
+
+/* footer-2 */
+.footer-2{
+    padding: 16px 0;
+    background-color: #002f34;
+    text-align: right
+}
+.footer-2-child{
+    color: #fff;
+    font-size: 12.02px;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    /* transition: max-width .25s ease-in */
+}
+.footer-2-child> span{
+    margin-right: 0.8rem
+}
 
 
 
@@ -172,3 +313,9 @@ header{
 
 
 
+
+
+
+
+
+  
